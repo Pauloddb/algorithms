@@ -37,7 +37,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn basic() {
+    fn quick_sort_test() {
         let mut arr = [4, 999, 0, -7, 1];
         let len = arr.len();
 

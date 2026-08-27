@@ -14,7 +14,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn basic() {
+    fn bubble_sort_test() {
         let mut arr = [4, 999, 0, -7, 1];
 
         let expected = [-7, 0, 1, 4, 999];
